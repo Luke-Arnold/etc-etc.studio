@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETC ETC Studio</title>
+    <title>Gradient Text Example</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url("https://use.typekit.net/gmc0esb.css");
+
+        .gradient-text {
+            background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -15,7 +25,7 @@
     </header>
 
     <div class="content">
-        <h1>Designers, thinkers, makers, etc...</h1>
+        <h1 class="gradient-text">Designers, thinkers, makers, etc...</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
         <div class="case-studies-link">
             <a href="case-studies.html" class="case-studies-heading">View our case studies</a>
