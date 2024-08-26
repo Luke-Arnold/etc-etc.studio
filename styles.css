@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: indivisible, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
@@ -19,16 +21,19 @@ header img {
 
 .content {
     text-align: center;
-    padding: 60px 20px 20px 20px; /* Added top padding to push content down */
+    padding: 20px 20px 20px 20px; /* Added top padding to push content down */
 }
 
 .content h1 {
+    font-family: indivisible, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 45px;
     color: #000000;
 }
 
 .content p {
-    font-size: 25px;
+    font-size: 30px;
     color: #000000;
     max-width: 1200px;
     margin: 0 auto;
@@ -38,17 +43,23 @@ header img {
     margin-top: 45px;
 }
 
-.case-studies-link a {
+.case-studies-heading {
+    font-family: indivisible, sans-serif;
+font-weight: 500;
+font-style: normal;
+    font-size: 40px;
+    color: #a1b67f; /* Green color for the "View our case studies" link */
     text-decoration: none;
-    color: #a1b67f; /* Green color for the "Our Case Studies" link */
-    font-size: 45px;
-    font-weight: bold;
 }
 
 .contact {
+    font-family: indivisible, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     margin-top: 20px;
-    font-size: 25px;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
 
 .contact a {
@@ -74,7 +85,7 @@ header img {
     font-size: 16px;
     color: #000000;
     max-width: 600px;
-    margin: 10px 20px;
+    margin: 20px 0px;
 }
 
 .case-study img {
