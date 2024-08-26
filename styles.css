@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+    padding: 60px 20px 20px 20px; /* Added top padding to push content down */
+}
+
+.content h1 {
+    font-size: 45px;
+    color: #000000;
+}
+
+.content p {
+    font-size: 25px;
+    color: #000000;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.case-studies-link {
+    margin-top: 45px;
+}
+
+.case-studies-link a {
+    text-decoration: none;
+    color: #a1b67f; /* Green color for the "Our Case Studies" link */
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.case-study {
+    margin-bottom: 60px; /* Added more bottom margin for better spacing between case studies */
+    padding-top: 40px; /* Added top padding to space the first case study */
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.case-study h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.case-study p {
+    font-size: 16px;
+    color: #000000;
+    max-width: 600px;
+    margin: 10px 20px;
+}
+
+.case-study img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16/9;
+    background-color: rgb(255, 255, 255); /* Placeholder for images */
+    margin: 10px 20px;
+}
